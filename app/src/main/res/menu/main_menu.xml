@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuPrincipal">
+    <item android:title="Sigle" >
+        <menu>
+            <item android:title="Liste"
+                android:id="@+id/main_menu_sigle_liste">
+                <menu android:title="sigle_liste"></menu>
+            </item>
+            <item android:title="Ajoute"
+                android:id="@+id/item_ajoute_sigle"/>
+            <item android:title="Supprime"
+                android:id="@+id/item_supprime_sigle"/>
+        </menu>
+    </item>
+    <item android:title="Module">
+        <menu>
+            <item android:title="Liste"
+                android:id="@+id/item_liste_module"/>
+            <item android:title="Ajoute"
+                android:id="@+id/item_ajoute_module"/>
+            <item android:title="Supprime"
+                android:id="@+id/item_supprime_module"/>
+        </menu>
+    </item>
+    <item android:title="RoomModule">
+        <menu>
+            <item android:title="Room liste"
+                android:id="@+id/item_liste_roommodule"/>
+            <item android:title="Room ajoute"
+                android:id="@+id/item_ajoute_roommodule"/>
+            <item android:title="Room supprime"
+                android:id="@+id/item_supprime_roommodule"/>
+        </menu>
+    </item>
+</menu>
